@@ -2,7 +2,7 @@
 
 ## Welcome to R - Apps. A collections of r -applications
 
-Built with [VueJs](https://vuejs.org/) Visit r-apps [here](https://r-apps.vercel.app)
+Built with [vite](https://v3.vitejs.dev/guide/) & React. Visit r-apps [here](https://r-apps.vercel.app)
 
 ### A list of r - apps include
 
@@ -61,8 +61,8 @@ pnpm build
 pnpm test:e2e
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Format with [Prettier](https://prettier.io/docs/en/configuration)
 
 ```sh
-pnpm lint
+pnpm format
 ```

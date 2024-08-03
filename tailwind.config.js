@@ -1,12 +1,13 @@
 export default {
   content: [
-    "./pages/**/*"
+    "./src/**/*"
   ],
   theme: {
     extend: {
       colors: {
         app_text: "var(--app_text)",
         app_text_dark: "var(--app_text_dark)",
+        app_text_blue: "var(--app_text_blue)",
 
         app_border: "var(--app_border)",
 
@@ -17,36 +18,9 @@ export default {
         app_blue: "var(--app_blue)",
         app_dark: "var(--app_dark)",
         app_white: "var(--app_white)",
+        vue_green: "var(--vue_green)"
       }
     },
   },
   plugins: [],
 }
-
-/* 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  /* Extensions 
-  --app_text: #000;
-  --app_text_dark: #000;
-
-  --app_border: #59575757;
-
-  --app_bg: #f9f9f9;
-  --app_bg_light: #d9d9d9;
-  --app_bg_grayed: #a6a5a5;
-
-  --app_blue: #367aff;
-  --app_dark: #000;
-  --app_white: #ffffff;
-}
-*/
