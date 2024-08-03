@@ -1,9 +1,15 @@
+import { Footer } from "./core/components/molecules";
 import { HomePage } from "./core/pages";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <>
+        <HomePage />
+      </>
+      {/* CONFIGURE ROUTING HERE */}
+
+      <Footer />
     </>
   )
 };

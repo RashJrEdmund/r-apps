@@ -7,6 +7,7 @@
   --app_text: #000;
   --app_text_dark: #000;
   --app_text_blue: #367aff;
+  --app_text_grayed: #1a1a1a7a;
 
   --app_border: #59575757;
 
@@ -17,6 +18,16 @@
   --app_blue: #367aff;
   --app_dark: #181818;
   --app_white: #ffffff;
+
+
+  /* DIMENSIONS */
+  --primary_app_width: min(91vw, 1200px);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {

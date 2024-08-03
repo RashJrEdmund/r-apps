@@ -18,8 +18,11 @@ export default {
         app_blue: "var(--app_blue)",
         app_dark: "var(--app_dark)",
         app_white: "var(--app_white)",
-        vue_green: "var(--vue_green)"
-      }
+        app_text_grayed: "var(--app_text_grayed)",
+      },
+      spacing: {
+        primary_app_width: "var(--primary_app_width)",
+      },
     },
   },
   plugins: [],
