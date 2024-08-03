@@ -1,12 +1,17 @@
-import { Copy, Github, Linkedin, Mail, X } from "lucide-react";
-import { APP_CONFIG } from "../../config/app-config";
+import { Copy, Github, Linkedin, Mail, UserRoundCheck, X } from "lucide-react";
+import { APP_CONFIG } from "../../../config/app-config";
 import { toast } from "sonner";
 
 const Socials = [
   {
-    username: "orashus",
-    icon: X,
-    url: "https://twitter.com/orashus",
+    username: "portfolio",
+    icon: UserRoundCheck,
+    url: "https://rash-edmund.vercel.app",
+  },
+  {
+    username: "rashjredmund",
+    icon: Github,
+    url: "https://github.com/rashjredmund",
   },
   {
     username: "orashus",
@@ -14,10 +19,10 @@ const Socials = [
     url: "https://www.linkedin.com/in/orashus/",
   },
   {
-    username: "rashjredmund",
-    icon: Github,
-    url: "https://github.com/rashjredmund",
-  },
+    username: "orashus",
+    icon: X,
+    url: "https://twitter.com/orashus",
+  }
 ];
 
 export default function Footer() {
@@ -33,7 +38,7 @@ export default function Footer() {
     <>
       <hr className="mx-auto max-w-primary_app_width my-6" />
 
-      <footer className="w-full flex flex-col items-center justify-start py-4 gap-6">
+      <footer className="w-full flex flex-col items-center justify-start py-4 pb-8 gap-6">
         <div className="w-full max-w-primary_app_width flex flex-col md:flex-row items-start justify-between gap-5">
           <h3 className="font-semibold whitespace-nowrap">
             R - Apps  🚀
@@ -73,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="w-primary_app_width text-center text-sm text-app_text_grayed">
-          &copy; {new Date().getFullYear()} | R - Cloud From r - apps
+          &copy; {new Date().getFullYear()} | R - Apps
           <br />
           All Rights Reserved
         </div>
