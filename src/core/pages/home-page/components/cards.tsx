@@ -4,7 +4,7 @@ function RAppCard({ project: { app_name, app_description, app_url, app_logo, is_
   return (
     <div className={`w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-3 duration-300 md:hover:scale-[1.02] ${is_live ? "shadow-app_blue" : "shadow-red-400"}`}>
       <img
-        src={app_logo || "/logo-blue.svg"}
+        src={app_logo || "/logo-404.svg"}
         alt={app_name + " logo"}
         width={50}
         height={50}

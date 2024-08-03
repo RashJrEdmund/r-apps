@@ -3,7 +3,7 @@ import type { Project } from "./types";
 
 const Projects: Project[] = [
   {
-    app_logo: "",
+    app_logo: "https://firebasestorage.googleapis.com/v0/b/r-cloud-b40e6.appspot.com/o/users%2Forashusedmund%40gmail.com%2Fr-drive%2Fr-cloud-logo-1717236660783.png?alt=media&token=1606af2d-dc5d-4ece-af84-24b1cb61fdc8",
     app_name: "R - Cloud",
     app_description: "A cloud storage application, built for storing, and managing files.",
     app_url: "https://r-cloud.vercel.app",
