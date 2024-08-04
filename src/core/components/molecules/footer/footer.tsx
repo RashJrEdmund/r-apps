@@ -40,11 +40,11 @@ export default function Footer() {
 
       <footer className="w-full flex flex-col items-center justify-start py-4 pb-8 gap-6">
         <div className="w-full max-w-primary_app_width flex flex-col md:flex-row items-start justify-between gap-5">
-          <h3 className="font-semibold whitespace-nowrap">
+          <h3 className="font-semibold whitespace-nowrap min-w-[250px]">
             R - Apps  🚀
           </h3>
 
-          <h3>
+          <h3 className="text-left md:text-center">
             Designed and built with 🤍 💙 by Orashus(Rash)
           </h3>
 

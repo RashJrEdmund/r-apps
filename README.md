@@ -1,5 +1,7 @@
 # r-apps
 
+![r-apps-logo](./public/favicon.png)
+
 ## Welcome to R - Apps. A collections of r -applications
 
 Built with [vite](https://v3.vitejs.dev/guide/) & React. Visit r-apps [here](https://r-apps.vercel.app)
@@ -7,6 +9,8 @@ Built with [vite](https://v3.vitejs.dev/guide/) & React. Visit r-apps [here](htt
 ### A list of r - apps include
 
 - [r-cloud](https://r-cloud.vercel.app)
+
+  <img src="https://r-cloud.vercel.app/icon.png" height="50" width="50" />
 
   - A cloud storage application for storing and managing files online
 
