@@ -2,7 +2,7 @@ import { Github } from "lucide-react";
 
 export default function NavBar() {
   return (
-    <nav className="w-full">
+    <nav className=" top-0 left-0 w-full z-10 shadow-md">
       <div className="w-full max-w-primary_app_width mx-auto flex items-center justify-between py-4">
         <img src="/logo-white.svg" alt="r - apps logo" height={60} width={60} className="rounded-md shadow" />
 
