@@ -4,7 +4,7 @@ import { SectionHeader } from "../../../../components/ui/section-header";
 
 const Projects: Project[] = [
   {
-    app_logo: "https://firebasestorage.googleapis.com/v0/b/r-cloud-b40e6.appspot.com/o/users%2Forashusedmund%40gmail.com%2Fr-drive%2Fr-cloud-logo-1717236660783.png?alt=media&token=1606af2d-dc5d-4ece-af84-24b1cb61fdc8",
+    app_logo: "https://r-cloud.vercel.app/icon.png",
     app_name: "R - Cloud",
     app_description: "A cloud storage application, built for storing, and managing files.",
     app_url: "https://r-cloud.vercel.app",
@@ -13,14 +13,14 @@ const Projects: Project[] = [
   {
     app_logo: "",
     app_name: "R - TM",
-    app_description: "A cloud storage application, built for storing, and managing files.",
+    app_description: "A task manager application, for organizing, tasks, creating & managing teams and completing project mile-stones.",
     app_url: "",
     is_live: false,
   },
   {
     app_logo: "",
     app_name: "R - Chat",
-    app_description: "A cloud storage application, built for storing, and managing files.",
+    app_description: "A Chat application, built for exchanging messages and sharing files.",
     app_url: "",
     is_live: false,
   }
@@ -41,7 +41,7 @@ function CardDisplay() {
 export default function TopSection() {
   return (
     <div className="w-full h-fit">
-      <div className="w-primary_app_width min-h-[calc(100vh_-_100px)] mx-auto flex flex-col items-center justify-center gap-4 pb-4">
+      <div className="w-primary_app_width min-h-[calc(100vh_-_100px)] mx-auto flex flex-col items-center justify-center gap-4 pb-4 pt-8 md:pt-0">
         <img
           src="/logo-blue.svg" alt="r apps logo"
           className="w-[min(190px,_90vw)]"

@@ -11,7 +11,7 @@ function RAppCard({ project: { app_name, app_description, app_url, app_logo, is_
       // }}
       // whileHover={{ scale: 1.05 }}
       className={cn(
-        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-3",
+        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-4",
         is_live ? "shadow-app_blue" : "shadow-red-400"
       )}
     >
@@ -23,17 +23,19 @@ function RAppCard({ project: { app_name, app_description, app_url, app_logo, is_
         className="rounded-full"
       />
 
-      <h2 className="text-xl font-semibold">
-        {app_name}
-      </h2>
+      <div className="w-full flex flex-col gap-1">
+        <h2 className="text-xl font-semibold">
+          {app_name}
+        </h2>
 
-      <p>
-        {app_description}
-      </p>
+        <p>
+          {app_description}
+        </p>
+      </div>
 
       {
         is_live && app_url ? (
-          <a href={app_url} className="text-app_text_blue cursor-pointer">Visit app</a>
+          <a href={app_url} className="text-app_text_blue cursor-pointer">Visit application 🚀</a>
         ) : (
           <span className="text-red-500">
             rash is still cooking <LoaderCircle size={15} className="inline animate-spin duration-[2s]" />

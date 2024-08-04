@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { UserRoundCheck } from "lucide-react";
 
 export default function NavBar() {
   return (
@@ -7,20 +7,20 @@ export default function NavBar() {
         <img src="/logo-white.svg" alt="r - apps logo" height={60} width={60} className="rounded-md shadow" />
 
         <a
-          href="https://github.com/rashjredmund"
+          href="https://rash-edmund.vercel.app"
           target="_blank"
           className="w-fit flex flex-col items-center justify-center cursor-pointer"
         >
           <img
-            src="https://github.com/rashjredmund.png"
+            src="https://rash-edmund.vercel.app/icon.png"
             alt="rash github image"
             height={60}
             width={60}
-            className="rounded-full w-[40px]"
+            className="rounded-full w-[40px] h-[40px] bg-black"
           />
 
           <span className="flex flex-nowrap items-center justify-center gap-1 text-app_blue">
-            <Github /> @rashjredmund
+            <UserRoundCheck size={18}/> @portfolio
           </span>
         </a>
       </div>
