@@ -38,7 +38,7 @@ export default function Footer() {
     <>
       <hr className="mx-auto max-w-primary_app_width my-6" />
 
-      <footer className="w-full flex flex-col items-center justify-start py-4 pb-8 gap-6">
+      <footer className="w-full flex flex-col items-center justify-start pt-4 pb-20 gap-6 min-h-[min(400px,_50vh)]">
         <div className="w-full max-w-primary_app_width flex flex-col md:flex-row items-start justify-between gap-5">
           <h3 className="font-semibold whitespace-nowrap min-w-[250px]">
             R - Apps  🚀

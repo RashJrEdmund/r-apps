@@ -11,7 +11,7 @@ function RAppCard({ project: { app_name, app_description, app_url, app_logo, is_
       // }}
       // whileHover={{ scale: 1.05 }}
       className={cn(
-        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-4",
+        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-4 md:min-h-60",
         is_live ? "shadow-app_blue" : "shadow-red-400"
       )}
     >
@@ -44,7 +44,7 @@ function RAppCard({ project: { app_name, app_description, app_url, app_logo, is_
       }
     </motion.div>
   );
-};
+}
 
 export {
   RAppCard,
