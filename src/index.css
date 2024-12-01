@@ -19,9 +19,10 @@
   --app_dark: #181818;
   --app_white: #ffffff;
 
-
   /* DIMENSIONS */
-  --primary_app_width: min(91vw, 1200px);
+  --primary_app_w: min(91vw, 1200px);
+
+  --app_section_h: 70vh;
 }
 
 * {

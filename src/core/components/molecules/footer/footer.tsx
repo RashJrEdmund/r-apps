@@ -6,22 +6,22 @@ const Socials = [
   {
     username: "portfolio",
     icon: UserRoundCheck,
-    url: "https://rash-edmund.vercel.app",
+    url: "https://rash-edmund.vercel.app"
   },
   {
     username: "rashjredmund",
     icon: Github,
-    url: "https://github.com/rashjredmund",
+    url: "https://github.com/rashjredmund"
   },
   {
     username: "orashus",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/orashus/",
+    url: "https://www.linkedin.com/in/orashus/"
   },
   {
     username: "orashus",
     icon: X,
-    url: "https://twitter.com/orashus",
+    url: "https://twitter.com/orashus"
   }
 ];
 
@@ -29,20 +29,18 @@ export default function Footer() {
   const handleEmailCopy = () => {
     navigator.clipboard.writeText(APP_CONFIG.my_email).then(() => {
       toast("Email copied to clipboard", {
-        description: "do write me 🤗",
+        description: "do write me 🤗"
       });
     });
   };
 
   return (
     <>
-      <hr className="mx-auto max-w-primary_app_width my-6" />
+      <hr className="mx-auto max-w-primary_app_w my-6" />
 
       <footer className="w-full flex flex-col items-center justify-start pt-4 pb-20 gap-6 min-h-[min(400px,_50vh)]">
-        <div className="w-full max-w-primary_app_width flex flex-col md:flex-row items-start justify-between gap-5">
-          <h3 className="font-semibold whitespace-nowrap min-w-[250px]">
-            R - Apps  🚀
-          </h3>
+        <div className="w-full max-w-primary_app_w flex flex-col md:flex-row items-start justify-between gap-5">
+          <h3 className="font-semibold whitespace-nowrap min-w-[250px]">R - Apps 🚀</h3>
 
           <h3 className="text-left md:text-center">
             Designed and built with 🤍 💙 by Orashus(Rash)
@@ -77,12 +75,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-primary_app_width text-center text-sm text-app_text_grayed">
+        <div className="w-primary_app_w text-center text-sm text-app_text_grayed">
           &copy; {new Date().getFullYear()} | R - Apps
           <br />
           All Rights Reserved
         </div>
-      </footer >
+      </footer>
     </>
-  )
-};
+  );
+}

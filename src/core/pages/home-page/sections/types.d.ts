@@ -6,6 +6,4 @@ interface Project {
   is_live: boolean;
 }
 
-export {
-  Project,
-};
+export { Project };

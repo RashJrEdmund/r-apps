@@ -21,7 +21,8 @@ export default {
         app_text_grayed: "var(--app_text_grayed)",
       },
       spacing: {
-        primary_app_width: "var(--primary_app_width)",
+        primary_app_w: "var(--primary_app_w)",
+        app_section_h: "var(--app_section_h)",
       },
     },
   },
