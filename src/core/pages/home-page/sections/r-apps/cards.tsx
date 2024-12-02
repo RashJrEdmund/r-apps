@@ -19,19 +19,19 @@ function RAppCard({
         is_live ? "shadow-app_blue" : "shadow-red-400"
       )}
     >
-      <img
-        src={app_logo || "/logo-404.svg"}
-        alt={app_name + " logo"}
-        width={50}
-        height={50}
-        className="rounded-full"
-      />
+      <div className="w-full flex items-center justify-start gap-2">
+        <img
+          src={app_logo || "/logo-404.svg"}
+          alt={app_name + " logo"}
+          width={50}
+          height={50}
+          className="rounded-full"
+        />
 
-      <div className="w-full flex flex-col gap-1">
         <h2 className="text-xl font-semibold">{app_name}</h2>
-
-        <p>{app_description}</p>
       </div>
+
+      <p>{app_description}</p>
 
       {is_live && app_url ? (
         <a href={app_url} className="text-app_text_blue cursor-pointer">

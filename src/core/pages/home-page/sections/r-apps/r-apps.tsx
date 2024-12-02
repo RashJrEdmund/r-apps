@@ -36,7 +36,7 @@ const Projects: Project[] = [
 
 export default function RApps() {
   return (
-    <div className="min-h-app_section_h max-w-primary_app_w mx-auto flex flex-col md:flex-row gap-4 items-center justify-center">
+    <div className="min-h-fit max-w-primary_app_w mx-auto flex flex-col md:flex-row gap-4 items-start justify-center md:mt-24 md:mb-40">
       {Projects.map((project) => (
         <RAppCard project={project} key={project.app_name} />
       ))}

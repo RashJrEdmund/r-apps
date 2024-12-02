@@ -24,7 +24,7 @@ export default function AboutMe() {
     <div className="w-full h-fit">
       <div className="w-primary_app_w min-h-app_section_h mx-auto flex flex-col items-center justify-center gap-4 py-7">
         <div className="w-full min-h-app_section_h flex flex-col items-center justify-center gap-6 sm:gap-12">
-          <SectionHeader className="">About me</SectionHeader>
+          <SectionHeader>About me</SectionHeader>
 
           <div className="flex items-center justify-around flex-col-reverse md:flex-row gap-4">
             <img
@@ -34,7 +34,7 @@ export default function AboutMe() {
               className="rounded-xl w-full"
             />
 
-            <p className="md:text-xl lg:text-2xl w-full">
+            <p className="md:text-xl lg:text-2xl w-full text-center md:text-left">
               I am a detail-oriented, skilled software developer with a perfect understanding of
               TypeScript and JavaScript. I also code with Python (Flask), and have basic knowledge
               of Java, and expertise in frameworks like NextJs, React, NestJs, and Express. I'm a
@@ -48,7 +48,7 @@ export default function AboutMe() {
           <div
             key={v.url}
             className={cn(
-              "w-full min-h-[50vh] md:min-h-screen flex flex-col items-center justify-center gap-4",
+              "w-full md:min-h-app_section_h flex flex-col items-center justify-center gap-4",
               i % 2 !== 0 ? " md:flex" : ""
             )}
           >
