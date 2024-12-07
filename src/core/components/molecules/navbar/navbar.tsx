@@ -7,8 +7,8 @@ export default function NavBar() {
         <img
           src="/logo-white.svg"
           alt="r - apps logo"
-          height={60}
-          width={60}
+          height={50}
+          width={50}
           className="rounded-md shadow"
         />
 
@@ -20,9 +20,9 @@ export default function NavBar() {
           <img
             src="https://rash-edmund.vercel.app/icon.png"
             alt="rash github image"
-            height={60}
-            width={60}
-            className="rounded-full w-[40px] h-[40px] bg-black"
+            height={35}
+            width={35}
+            className="rounded-full size-[35px] bg-black"
           />
 
           <span className="flex flex-nowrap items-center justify-center gap-1 text-app_blue">

@@ -10,28 +10,34 @@ function RAppCard({
 }) {
   return (
     <motion.div
-      // animate={{
-      //   y: 100,
-      // }}
-      // whileHover={{ scale: 1.05 }}
+      whileHover={{ scale: 1.05 }}
+      initial={{
+        y: 100,
+      }}
+      whileInView={{
+        y: 0,
+        transition: { duration: 0.5 }
+      }}
       className={cn(
-        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 flex flex-col gap-4 md:min-h-60",
+        "w-full max-w-screen-sm bg-app_bg shadow-md rounded-xl p-4 pb-10 flex flex-col justify-between gap-4 md:min-h-60",
         is_live ? "shadow-app_blue" : "shadow-red-400"
       )}
     >
-      <div className="w-full flex items-center justify-start gap-2">
-        <img
-          src={app_logo || "/logo-404.svg"}
-          alt={app_name + " logo"}
-          width={50}
-          height={50}
-          className="rounded-full"
-        />
+      <div className="w-full flex flex-col items-start justify-start gap-4">
+        <div className="w-full flex items-center justify-start gap-2">
+          <img
+            src={app_logo || "/logo-404.svg"}
+            alt={app_name + " logo"}
+            width={50}
+            height={50}
+            className="rounded-full"
+          />
 
-        <h2 className="text-xl font-semibold">{app_name}</h2>
+          <h2 className="text-xl font-semibold">{app_name}</h2>
+        </div>
+
+        <p>{app_description}</p>
       </div>
-
-      <p>{app_description}</p>
 
       {is_live && app_url ? (
         <a href={app_url} className="text-app_text_blue cursor-pointer">

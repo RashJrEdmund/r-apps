@@ -20,7 +20,7 @@
   --app_white: #ffffff;
 
   /* DIMENSIONS */
-  --primary_app_w: min(91vw, 1200px);
+  --primary_app_w: min(90vw, 1400px);
 
   --app_section_h: 70vh;
 }

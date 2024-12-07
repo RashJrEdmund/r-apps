@@ -34,7 +34,7 @@ export default function AboutMe() {
               className="rounded-xl w-full"
             />
 
-            <p className="md:text-xl lg:text-2xl w-full text-center md:text-left">
+            <p className="md:text-xl md:leading-9 w-full text-center md:text-left">
               I am a detail-oriented, skilled software developer with a perfect understanding of
               TypeScript and JavaScript. I also code with Python (Flask), and have basic knowledge
               of Java, and expertise in frameworks like NextJs, React, NestJs, and Express. I'm a
@@ -48,7 +48,7 @@ export default function AboutMe() {
           <div
             key={v.url}
             className={cn(
-              "w-full md:min-h-app_section_h flex flex-col items-center justify-center gap-4",
+              "w-full max-w-5xl md:min-h-app_section_h flex flex-col items-center justify-center gap-4",
               i % 2 !== 0 ? " md:flex" : ""
             )}
           >
