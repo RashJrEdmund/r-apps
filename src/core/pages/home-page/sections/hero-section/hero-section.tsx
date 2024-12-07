@@ -35,19 +35,11 @@ export default function HeroSection() {
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ scale: 0.5 }}
-          animate={{
-            scale: 1,
-            transition: { duration: 0.4 }
-          }}
-        >
-          <img
-            src="/logo-blue.svg"
-            alt="r apps logo"
-            className="w-[min(180px,_90vw)] sm:w-[min(350px,_90vw)]"
-          />
-        </motion.div>
+        <img
+          src="/logo-blue.svg"
+          alt="r apps logo"
+          className="w-[min(180px,_90vw)] sm:w-[min(350px,_90vw)]"
+        />
       </div>
     </div>
   );
