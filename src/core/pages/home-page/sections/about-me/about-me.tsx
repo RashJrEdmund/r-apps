@@ -26,12 +26,12 @@ export default function AboutMe() {
         <div className="w-full min-h-app_section_h flex flex-col items-center justify-center gap-6 sm:gap-12">
           <SectionHeader>About me</SectionHeader>
 
-          <div className="flex items-center justify-around flex-col-reverse md:flex-row gap-4">
+          <div className="flex items-center justify-around flex-col-reverse md:flex-row gap- md:gap-8">
             <img
               src="https://github.com/rashjredmund.png"
               alt="Rash github profile"
-              width={500}
-              className="rounded-xl w-full"
+              width={400}
+              className="rounded-xl w-full max-w-[500px]"
             />
 
             <p className="md:text-xl md:leading-9 w-full text-center md:text-left">

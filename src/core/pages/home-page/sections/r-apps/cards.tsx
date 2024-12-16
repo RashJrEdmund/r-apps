@@ -24,7 +24,7 @@ function RAppCard({
       )}
     >
       <div className="w-full flex flex-col items-start justify-start gap-4">
-        <div className="w-full flex items-center justify-start gap-2">
+        <div className="w-full flex items-center justify-start gap-4">
           <img
             src={app_logo || "/logo-404.svg"}
             alt={app_name + " logo"}
