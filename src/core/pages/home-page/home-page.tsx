@@ -1,4 +1,4 @@
-import { AboutMe, RApps, HeroSection } from "./sections";
+import { RApps, HeroSection } from "./sections";
 
 export default function HomePage() {
   return (
@@ -6,8 +6,6 @@ export default function HomePage() {
       <HeroSection />
 
       <RApps />
-
-      <AboutMe />
     </main>
   );
 }
