@@ -6,7 +6,7 @@ const Socials = [
   {
     username: "portfolio",
     icon: UserRoundCheck,
-    url: "https://rash-edmund.vercel.app"
+    url: APP_CONFIG.portfolio_url
   },
   {
     username: "rashjredmund",
@@ -21,7 +21,7 @@ const Socials = [
   {
     username: "orashus",
     icon: X,
-    url: "https://twitter.com/orashus"
+    url: "https://x.com/orashus"
   }
 ];
 

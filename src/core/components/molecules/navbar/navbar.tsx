@@ -1,4 +1,5 @@
 import { UserRoundCheck } from "lucide-react";
+import { APP_CONFIG } from "../../../config/app-config";
 
 export default function NavBar() {
   return (
@@ -13,7 +14,7 @@ export default function NavBar() {
         />
 
         <a
-          href="https://rash-edmund.vercel.app"
+          href={APP_CONFIG.portfolio_url}
           target="_blank"
           className="w-fit flex flex-col items-center justify-center cursor-pointer"
         >
